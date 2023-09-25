@@ -1,3 +1,37 @@
+header .nav-menu {
+  display: flex;
+}
+header .nav-menu a {
+  text-decoration: none;
+  color: #A62D4E;
+}
+header .nav-menu a:hover {
+  color: #464646;
+}
+header .nav-menu #dark-link {
+  color: #464646;
+}
+header .nav-menu #dark-link:hover {
+  color: #A62D4E;
+}
 
+main #Profile {
+  background-color: #ffffff;
+  color: #464646;
+}
+main #Profile ul {
+  list-style: none;
+}
+main #Profile ul a {
+  text-decoration: none;
+  color: #464646;
+}
+main #Profile ul a:hover {
+  color: #A62D4E;
+}
+main #About {
+  background-color: #A62D4E;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=styles.css.map */
