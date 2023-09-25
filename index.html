@@ -4,43 +4,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="site criado para expor projetos feitos por Paulo Reis voltados para o desenvolvimento de site e aplicações web.">
+  <meta name="description"
+    content="site criado para expor projetos feitos por Paulo Reis voltados para o desenvolvimento de site e aplicações web.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>prbn.dev</title>
 </head>
 
 <body>
   <header>
-    <nav> 
+
+    <nav class="nav-menu">
+      <img src="./assets/img/Logo.svg.svg" alt="">
+
+      <ul class="nav-menu-link">
+        <a href="#About">Sobre mim</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Formation">Formação</a>
+        <a href="#Projects">Projetos</a>
+        <a id="dark-link" href="mailto:contato@pauloreis.dev.br">contato@pauloreis.dev.br</a>
+      </ul>
 
     </nav>
+
   </header>
 
   <main>
 
     <section id="Profile">
+
+      <img src="./assets/img/paulo-reis-picture.png" alt="">
+      <section id="Profile-bio">
+        <h1> Olá, meu nome é Paulo Reis. </h1>
+
+        <p>No segundo semestre do curso de Análise e desenvolvimento de sistemas me capacitando e me preparando para um
+          estágio na área.</p>
+        <ul id="social-links">
+          <li>
+            <a href="https://github.com/prbn97">Github
+              <img src="./assets/img/link-icon.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/paulo-reis-dev/">Linkedin
+              <img src="./assets/img/link-icon.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/p/B8hx8XMnQe8/">Instagram
+              <img src="./assets/img/link-icon.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">Currículo
+              <img src="./assets/img/link-icon.svg" alt="">
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
     </section>
+
     <section id="About">
+
+      <h2>Sobre mim</h2>
+      <p>Dei o pontapé inicial em uma bootcamp em novembro de 2022 para obter minha primeira oportunidade como
+        desenvolvedor no mercado de trabalho. Entretanto já tenho experiência prévia com desenvolvimento de sites em
+        wordpress.</p>
+      <p>Atualmente estou indo para o 2ª período do curso de Análise e desenvolvimento de sistemas pela Estácio. Venho
+        praticando um dos principais frameworks React.</p>
+
     </section>
+
     <section id="Skills">
+
+      <h2>Skills</h2>
+
+      <div id="skill-icons">
+        <img src="./assets/img/skills/figma-icon.svg" alt="icone do app figma">
+        <img src="./assets/img/skills/css3-icon.svg" alt="icone da tecnologia css3">
+        <img src="./assets/img/skills/sass-icon.svg" alt="icone da tecnologia sass">
+        <img src="./assets/img/skills/js-icon.svg" alt="icone da linguagem javascript">
+        <img src="./assets/img/skills/react-icon.svg" alt="icone do framework react">
+        <img src="./assets/img/skills/git-icon.svg" alt="icone da tecnologia git">
+      </div>
+
     </section>
+
     <section id="Formation">
+
+      <h2>Formação acadêmica</h2>
+      <img src="/assets/img/formations-projects/estacio-logo.png" alt="logo da faculdade UNESA">
+      <h3>Análise e desenvolvimento de sistemas</h3>
+      <p>04/2023 até 03/2026</p>
+
+      <h2>Formação complementar</h2>
+      <img src="./assets/img/formations-projects/alura-one-logo.png" alt="logo do programa alura + one">
+      <h3>Alura + Oracle Next Education</h3>
+      <p>Bootcamp de 6 meses para a formação de desenvolvedores Front End</p>
+
+      <img src="./assets/img/formations-projects/potenciatech-ifood-logo.png"
+        alt="logo do programa potenciatech com a DevMedia">
+      <h3>Potência Tech + DevMedia</h3>
+      <p>Bootcamp de 6 meses para a formação de desenvolvedores Front End</p>
+
+
     </section>
+
     <section id="Projects">
+
+      <h2>Portifólio</h2>
+
+      <section class="project">
+
+        <img src="./assets/img/formations-projects/encrypt-project1.jpg" alt="">
+        <h3>Decodificador de textos</h3>
+        <p>Desafio do programa Alura + One, decodificador de texto para treino do Javascript</p>
+        <button class="light-btn">Repositório</button>
+        <button class="dark-btn">Ver projeto</button>
+
+      </section>
+
+      <section class="project">
+
+        <img src="./assets/img/formations-projects/jiujitsustore-project2.jpg" alt="">
+        <h3>Decodificador de textos</h3>
+        <p>Desafio do programa Alura + One, loja virtual para o treino de CRUD</p>
+        <button class="light-btn">Repositório</button>
+        <button class="dark-btn">Ver projeto</button>
+
+      </section>
+
+      <section class="project">
+
+        <img src="./assets/img/formations-projects/aluraflix-project3.jpg" alt="">
+        <h3>Aluraflix</h3>
+        <p>Desafio do programa Alura + One, uma referencia ao streaming Netflix para o treino de React.</p>
+        <button class="light-btn" data-aluraflix-git="">Repositório</button>
+        <button class="dark-btn">Ver projeto</button>
+
+      </section>
+
     </section>
 
   </main>
 
   <footer>
 
-    <section id="Formcontact">
+    <section id="FormContact">
     </section>
-    <section id="Madeby">
+
+    <section id="MadeBy">
     </section>
 
   </footer>
