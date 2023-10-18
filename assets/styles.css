@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   font-size: 62.5%;
   font-family: "Raleway";
@@ -25,6 +26,25 @@ header .nav-menu #dark-link:hover {
   color: #A62D4E;
 }
 
+=======
+header .nav-menu {
+  display: flex;
+}
+header .nav-menu a {
+  text-decoration: none;
+  color: #A62D4E;
+}
+header .nav-menu a:hover {
+  color: #464646;
+}
+header .nav-menu #dark-link {
+  color: #464646;
+}
+header .nav-menu #dark-link:hover {
+  color: #A62D4E;
+}
+
+>>>>>>> d9fa975fe33d8de9642ad31470e57a70b9ac406d
 main #Profile {
   background-color: #ffffff;
   color: #464646;
@@ -42,7 +62,10 @@ main #Profile ul a:hover {
 main #About {
   background-color: #A62D4E;
   color: #ffffff;
+<<<<<<< HEAD
   padding: 1.6rem;
+=======
+>>>>>>> d9fa975fe33d8de9642ad31470e57a70b9ac406d
 }
 
 /*# sourceMappingURL=styles.css.map */
