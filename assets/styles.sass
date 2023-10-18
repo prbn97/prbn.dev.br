@@ -1,3 +1,43 @@
+@use 'colors'
+$font: 'Raleway'
+:root
+  font-size: 62.5%
+  font-family: $font
+body
+  margin: 0
+  padding: 0
 
+header
+  .nav-menu
+    display: flex
+    a
+      text-decoration: none
+      color: colors.$link-color2
+      &:hover
+        color: colors.$link-houver-color2
+    #dark-link
+      color: colors.$link-color1
+      &:hover
+        color: colors.$link-houver-color1
+      
+      
+    
 
-  
+main
+  #Profile
+    background-color: colors.$bg-color1
+    color: colors.$dark-text-color
+
+    ul
+      list-style: none
+      a
+        text-decoration: none
+        color: colors.$link-color1
+        &:hover
+          color: colors.$link-houver-color1
+
+  #About
+
+    background-color: colors.$bg-about-color
+    color: colors.$light-text-color
+    padding: 1.6rem
