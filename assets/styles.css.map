@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["styles.sass","_colors.sass"],"names":[],"mappings":"AAEA;EACE;EACA,aAHK;;;AAIP;EACE;EACA;;;AAGA;EACE;;AACA;EACE;EACA,OCZY;;ADaZ;EACE,OCfa;;ADgBjB;EACE,OCjBe;;ADkBf;EACE,OClBU;;;ADwBhB;EACE,kBC3BY;ED4BZ,OC3BiB;;AD6BjB;EACE;;AACA;EACE;EACA,OCjCa;;ADkCb;EACE,OClCQ;;ADoChB;EAEE,kBCtCc;EDuCd,OCzCY;ED0CZ","file":"styles.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["styles.sass","_colors.sass"],"names":[],"mappings":"AAGE;EACE;;AACA;EACE;EACA,OCLY;;ADMZ;EACE,OCRa;;ADSjB;EACE,OCVe;;ADWf;EACE,OCXU;;;ADiBhB;EACE,kBCpBY;EDqBZ,OCpBiB;;ADsBjB;EACE;;AACA;EACE;EACA,OC1Ba;;AD2Bb;EACE,OC3BQ;;AD6BhB;EACE,kBC9Bc;ED+Bd,OCjCY","file":"styles.css"}
->>>>>>> d9fa975fe33d8de9642ad31470e57a70b9ac406d
+{"version":3,"sourceRoot":"","sources":["styles.sass","_colors.sass"],"names":[],"mappings":"AAGA;EACE;EACA,aAJK;;;AAKP;EACE;EACA;;;AAGA;EACE;;AACA;EACE;EACA,OCbY;;ADcZ;EACE,OChBa;;ADiBjB;EACE,OClBe;;ADmBf;EACE,OCnBU;;;ADyBhB;EACE,kBC5BY;ED6BZ,OC5BiB;;AD8BjB;EACE;;AACA;EACE;EACA,OClCa;;ADmCb;EACE,OCnCQ;;ADqChB;EAEE,kBCvCc;EDwCd,OC1CY;ED2CZ","file":"styles.css"}
