@@ -63,6 +63,9 @@ main #Profile .social-links {
   justify-content: space-evenly;
 }
 main #Profile .social-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   font-weight: bold;
   font-size: 1.4rem;
   text-decoration: none;
@@ -72,6 +75,9 @@ main #Profile .social-links a:hover {
   color: #A62D4E;
   background-color: #ffffff;
   color: #464646;
+}
+main #Profile .social-links a:hover img {
+  transform: scale(1.2);
 }
 main #About {
   background-color: #A62D4E;
@@ -90,6 +96,10 @@ main #Skills .skill-icons {
   justify-items: center;
   grid-row-gap: 3.2rem;
 }
+main #Skills .skill-icons .icon:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
 @media screen and (min-width: 768px) {
   main #Skills .skill-icons {
     display: flex;
@@ -106,6 +116,22 @@ main #Formation {
 }
 main #Formation img {
   max-width: 50vw;
+}
+main #Projects {
+  padding: 1.6rem;
+}
+main #Projects .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #Projects .project img {
+  max-width: 50vw;
+}
+main #Projects .project .btn {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
 }
 
 footer #FormContact {

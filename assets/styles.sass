@@ -10,7 +10,6 @@ body
   padding: 0
   p
     font-size: 1.4rem
-    
 
 header
   .nav-menu
@@ -35,7 +34,7 @@ main
   h2
     font-size: 2.2rem
 
-  h1,h2,h3, p 
+  h1,h2,h3, p
     text-align: center
 
   #Profile
@@ -43,11 +42,10 @@ main
     display: flex
     flex-direction: column
     align-items: center
-    
 
     .profile-img
       max-width: 25vw
-    
+
     .profile-bio
       h1
         text-align: center
@@ -60,6 +58,10 @@ main
       display: flex
       justify-content: space-evenly
       a
+        display: flex
+        align-items: center
+        gap: 0.4rem
+
         font-weight: bold
         font-size: 1.4rem
         text-decoration: none
@@ -68,7 +70,8 @@ main
           color: colors.$link-houver-color1
           background-color: colors.$bg-color1
           color: colors.$dark-text-color
-
+          img
+            transform: scale(1.2)
 
   #About
     background-color: colors.$bg-about-color
@@ -78,7 +81,6 @@ main
     h2,p
       text-align: left
 
-
   #Skills
     padding: 1.6rem
     .skill-icons
@@ -86,6 +88,11 @@ main
       grid-template-columns: repeat(2, 1fr)
       justify-items: center
       grid-row-gap: 3.2rem
+
+      .icon
+        &:hover
+          font-weight: bold
+          transform: scale(1.1)
 
       @media screen and (min-width: 768px)
         display: flex
@@ -102,8 +109,18 @@ main
     img
       max-width: 50vw
 
-
-  //#Projects
+  #Projects
+    padding: 1.6rem
+    .project
+      display: flex
+      flex-direction: column
+      align-items: center
+      img
+        max-width: 50vw
+      .btn
+        display: flex
+        flex-direction: row
+        gap: 1.6rem
 
 footer
   #FormContact

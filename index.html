@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="site criado para expor projetos feitos por Paulo Reis voltados para o desenvolvimento de site e aplicações web.">
+  <meta name="description"
+    content="site criado para expor projetos feitos por Paulo Reis voltados para o desenvolvimento de site e aplicações web.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
@@ -35,8 +36,7 @@
 
     <section id="Profile">
 
-      <img class="profile-img"
-      src="./assets/img/paulo-reis-picture.png" alt="">
+      <img class="profile-img" src="./assets/img/paulo-reis-picture.png" alt="">
 
       <section class="profile-bio">
         <h1> Olá, meu nome é Paulo Reis. </h1>
@@ -86,12 +86,31 @@
       <h2>Skills</h2>
 
       <div class="skill-icons">
-        <img src="./assets/img/skills/figma-icon.svg" alt="icone do app figma">
-        <img src="./assets/img/skills/css3-icon.svg" alt="icone da tecnologia css3">
-        <img src="./assets/img/skills/sass-icon.svg" alt="icone da tecnologia sass">
-        <img src="./assets/img/skills/js-icon.svg" alt="icone da linguagem javascript">
-        <img src="./assets/img/skills/react-icon.svg" alt="icone do framework react">
-        <img src="./assets/img/skills/git-icon.svg" alt="icone da tecnologia git">
+        <div class="icon">
+          <img src="./assets/img/skills/figma-icon.svg" alt="icone do app figma">
+          <p>Figma</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/img/skills/css3-icon.svg" alt="icone da tecnologia css3">
+          <p>Figma</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/img/skills/sass-icon.svg" alt="icone da tecnologia sass">
+          <p>Figma</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/img/skills/js-icon.svg" alt="icone da linguagem javascript">
+          <p>Figma</p>
+        </div>
+        <div class="icon">
+          <img src="./assets/img/skills/react-icon.svg" alt="icone do framework react">
+          <p>Figma</p>
+        </div>
+
+        <div class="icon">
+          <img src="./assets/img/skills/git-icon.svg" alt="icone da tecnologia git">
+          <p>Figma</p>
+        </div>
       </div>
 
     </section>
@@ -120,8 +139,10 @@
         <img src="./assets/img/formations-projects/encrypt-project1.jpg" alt="">
         <h3>Decodificador de textos</h3>
         <p>Desafio do programa Alura + One, decodificador de texto para treino do Javascript</p>
-        <button class="light-btn">Repositório</button>
-        <button class="dark-btn">Ver projeto</button>
+        <div class="btn">
+          <button class="light-btn">Repositório</button>
+          <button class="dark-btn">Ver projeto</button>
+        </div>
 
       </section>
 
@@ -130,8 +151,10 @@
         <img src="./assets/img/formations-projects/jiujitsustore-project2.jpg" alt="">
         <h3>Decodificador de textos</h3>
         <p>Desafio do programa Alura + One, loja virtual para o treino de CRUD</p>
-        <button class="light-btn">Repositório</button>
-        <button class="dark-btn">Ver projeto</button>
+        <div class="btn">
+          <button class="light-btn">Repositório</button>
+          <button class="dark-btn">Ver projeto</button>
+        </div>
 
       </section>
 
@@ -145,10 +168,11 @@
 
       <fieldset>
 
-        <legend><h2>Contato</h2>
+        <legend>
+          <h2>Contato</h2>
           <p>Quer entrar em contato comigo?<br>
             Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
-          </p>          
+          </p>
         </legend>
 
         <div class="input-wrapper">
@@ -172,7 +196,7 @@
         <div class="input-wrapper">
 
           <label for="message">Mensagem</label>
-          <textarea name="emailMessagem" id="message"  rows="5"></textarea>
+          <textarea name="emailMessagem" id="message" rows="5"></textarea>
 
         </div>
 
