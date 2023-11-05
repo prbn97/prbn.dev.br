@@ -1,17 +1,23 @@
 :root {
   font-size: 62.5%;
   font-family: "Raleway";
+  color: #464646;
 }
 
 body {
   margin: 0;
   padding: 0;
 }
+body p {
+  font-size: 1.6rem;
+}
 
 header .nav-menu {
   display: flex;
 }
 header .nav-menu a {
+  font-size: 1.6rem;
+  font-weight: bold;
   text-decoration: none;
   color: #A62D4E;
 }
@@ -22,27 +28,79 @@ header .nav-menu #dark-link {
   color: #464646;
 }
 header .nav-menu #dark-link:hover {
+  text-decoration: underline;
   color: #A62D4E;
 }
 
 main #Profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #Profile .profile-img {
+  max-width: 25vw;
+}
+main #Profile .profile-bio {
+  text-align: center;
+}
+main #Profile .profile-bio h1 {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+main #Profile .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+main #Profile .social-links a {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #A62D4E;
+}
+main #Profile .social-links a:hover {
+  color: #A62D4E;
   background-color: #ffffff;
   color: #464646;
-}
-main #Profile ul {
-  list-style: none;
-}
-main #Profile ul a {
-  text-decoration: none;
-  color: #464646;
-}
-main #Profile ul a:hover {
-  color: #A62D4E;
 }
 main #About {
   background-color: #A62D4E;
   color: #ffffff;
   padding: 1.6rem;
+}
+main #About h2 {
+  text-align: center;
+}
+main #About p {
+  text-align: left;
+}
+main #Skills .skill-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-row-gap: 3.2rem;
+}
+@media screen and (min-width: 768px) {
+  main #Skills .skill-icons {
+    display: flex;
+    column-gap: 6.4rem;
+    justify-content: center;
+  }
+}
+main #Formation {
+  background-color: #E5CDD4;
+}
+
+footer #FormContact {
+  background-color: #E5CDD4;
+}
+footer #MadeBy {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -4,14 +4,19 @@ $font: 'Raleway'
 :root
   font-size: 62.5%
   font-family: $font
+  color: colors.$dark-text-color
 body
   margin: 0
   padding: 0
+  p
+    font-size: 1.6rem
 
 header
   .nav-menu
     display: flex
     a
+      font-size: 1.6rem
+      font-weight: bold
       text-decoration: none
       color: colors.$link-color2
       &:hover
@@ -19,26 +24,77 @@ header
     #dark-link
       color: colors.$link-color1
       &:hover
+        text-decoration: underline
         color: colors.$link-houver-color1
-      
-      
-    
 
 main
   #Profile
-    background-color: colors.$bg-color1
-    color: colors.$dark-text-color
+    display: flex
+    flex-direction: column
+    align-items: center
 
-    ul
+
+    .profile-img
+      max-width: 25vw
+    .profile-bio
+      text-align: center
+      h1
+        font-weight: bold
+        font-size: 2.2rem
+      
+
+      
+    
+    .social-links
       list-style: none
+      display: flex
+      justify-content: space-between
       a
+        font-weight: bold
+        font-size: 1.4rem
         text-decoration: none
-        color: colors.$link-color1
+        color: colors.$link-color2
         &:hover
           color: colors.$link-houver-color1
+          background-color: colors.$bg-color1
+          color: colors.$dark-text-color
+
 
   #About
+    h2
+      text-align: center
+    p
+      text-align: left
 
     background-color: colors.$bg-about-color
     color: colors.$light-text-color
     padding: 1.6rem
+
+  #Skills
+    .skill-icons
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+      justify-items: center
+      grid-row-gap: 3.2rem
+
+      @media screen and (min-width: 768px)
+        display: flex
+        column-gap: 6.4rem
+        justify-content: center
+
+  #Formation
+    background-color: colors.$bg-color2
+
+  //#Projects
+
+footer
+  #FormContact
+    background-color: colors.$bg-color2
+  #MadeBy
+    background-color: colors.$footer-bg-color
+    color: colors.$light-text-color
+    font-size: 1.6rem
+    font-weight: bold
+
+    display: flex
+    justify-content: center
