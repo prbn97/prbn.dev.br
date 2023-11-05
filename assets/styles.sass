@@ -9,7 +9,8 @@ body
   margin: 0
   padding: 0
   p
-    font-size: 1.6rem
+    font-size: 1.4rem
+    
 
 header
   .nav-menu
@@ -28,27 +29,36 @@ header
         color: colors.$link-houver-color1
 
 main
+
+  h1
+    font-size: 2.4rem
+  h2
+    font-size: 2.2rem
+
+  h1,h2,h3, p 
+    text-align: center
+
   #Profile
+    padding: 1.6rem
     display: flex
     flex-direction: column
     align-items: center
-
+    
 
     .profile-img
       max-width: 25vw
-    .profile-bio
-      text-align: center
-      h1
-        font-weight: bold
-        font-size: 2.2rem
-      
-
-      
     
+    .profile-bio
+      h1
+        text-align: center
+        font-weight: bold
+      p
+        text-align: left
+
     .social-links
       list-style: none
       display: flex
-      justify-content: space-between
+      justify-content: space-evenly
       a
         font-weight: bold
         font-size: 1.4rem
@@ -61,16 +71,16 @@ main
 
 
   #About
-    h2
-      text-align: center
-    p
-      text-align: left
-
     background-color: colors.$bg-about-color
     color: colors.$light-text-color
     padding: 1.6rem
 
+    h2,p
+      text-align: left
+
+
   #Skills
+    padding: 1.6rem
     .skill-icons
       display: grid
       grid-template-columns: repeat(2, 1fr)
@@ -84,6 +94,14 @@ main
 
   #Formation
     background-color: colors.$bg-color2
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    padding: 1.6rem
+    img
+      max-width: 50vw
+
 
   //#Projects
 
